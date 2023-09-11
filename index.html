@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div class="timer">00 : 00</div>
+    <div class="buttons">
+        <button type="button" id="start">Start game</button>
+        <button type="button" id="check" disabled>Check result</button>
+        <button type="button" id="new" disabled>New game</button>
+    </div>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="sort">
+                    <div class="td-1" id="foto-1"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-2"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-3"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-4"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="sort">
+                    <div class="td-1" id="foto-5"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-6"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-7"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-8"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="sort">
+                    <div class="td-1" id="foto-9"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-10"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-11"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-12"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="sort">
+                    <div class="td-1" id="foto-13"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-14"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-15"></div>
+                </td>
+                <td class="sort">
+                    <div class="td-1" id="foto-16"></div>
+                </td>
+            </tr>
+        </table>
+        <div class="item-2">
+            <div class="row">
+                <div class="col  sort"></div>
+                <div class="col  sort"></div>
+                <div class="col  sort"></div>
+                <div class="col  sort"></div>
+            </div>
+            <div class="row">
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+            </div>
+            <div class="row">
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+            </div>
+            <div class="row">
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+                <div class="col sort"></div>
+            </div>
+        </div>
+    </div>
+    <div class="alert">Ви поставили пазл на пазл, перемістіть його в правильне місце
+        <button type="button" id="close">X</button>
+    </div>
+
+    <div class="check-menu">
+        <div class="result">
+            <p class="result-p"></p>
+            <button type="button" id="closeResult">Close</button>
+        </div>
+        <div class="time-less">
+            <p class="time-less-p"></p>
+            <div class="buttons-check">
+                <button type="button" id="closeBut">Close</button>
+                <button type="button" id="check-check">Check</button>
+            </div>
+        </div>
+        <div class="pity">
+            It's a pity, but you lost
+            <button type="button" id="close-pity">Close</button>
+
+        </div>
+    </div>
+    <script src="./script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
